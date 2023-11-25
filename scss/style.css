@@ -1,3 +1,9 @@
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   font-family: 'Poppins', sans-serif;
@@ -5,6 +11,9 @@ body {
   font-size: 18px;
   font-weight: 600;
   color: #fff;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .container {
@@ -20,6 +29,11 @@ body {
 .header__bg {
   position: absolute;
   z-index: -1;
+  width: 100%;
+}
+
+.header__bg img {
+  width: 100%;
 }
 
 .header__top {
