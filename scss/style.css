@@ -29,7 +29,6 @@ body {
 .header__bg {
   position: absolute;
   z-index: -1;
-  width: 100%;
 }
 
 .header__bg img {
@@ -110,4 +109,89 @@ a {
 
 .text-overlay3 p {
   max-width: 210px;
+}
+
+.second-block {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.info-second {
+  display: flex;
+  justify-content: space-between;
+  max-width: 405px;
+  max-height: 51px;
+  margin-bottom: 60px;
+}
+
+.info-second img {
+  width: 64px;
+  height: 31px;
+  margin-top: 10px;
+  margin-bottom: 19px;
+  margin-right: 30px;
+}
+
+.content-name {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.img-top {
+  position: absolute;
+  z-index: 2;
+  width: 350px;
+  left: 875px;
+}
+
+.img-bot {
+  position: absolute;
+  z-index: 1;
+  margin-top: 66px;
+  max-width: 350px;
+  left: 1000px;
+}
+
+.main-info {
+  max-width: 540px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.main-info-add {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 61px;
+  font-size: 18px;
+  font-weight: 600;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 540px;
+  margin-bottom: 150px;
+}
+
+.main-info-add p {
+  margin-bottom: 33px;
+  border-radius: 10px;
+  padding-left: 50px;
+  position: relative;
+}
+
+.main-info-add p:last-child {
+  margin-bottom: 0;
+}
+
+.main-info-add p::before {
+  background-color: #7a66cc;
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px 0px;
+  left: 0;
 }
