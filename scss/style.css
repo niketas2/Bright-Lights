@@ -497,3 +497,89 @@ a {
   background-color: #7a66cc;
   height: 55px;
 }
+
+footer {
+  margin-top: 180px;
+  display: grid;
+  text-align: center;
+}
+
+.footer-top {
+  margin-bottom: 60px;
+}
+.footer-top .logo {
+  margin-right: 20px;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.data .enter-data {
+  text-align: right;
+  text-transform: uppercase;
+}
+.data .data-name {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.footer-bot {
+  margin-top: 80px;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: space-between;
+  width: 24px;
+}
+.footer-img button {
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+.footer-img .apple {
+  width: 44px;
+  height: 44px;
+  border-radius: 70px 70px;
+  background-color: #7a66cc;
+}
+.footer-img .instagram {
+  width: 44px;
+  height: 44px;
+  border-radius: 70px 70px;
+  background-color: #7a66cc;
+}
+.footer-img .spotify {
+  width: 44px;
+  height: 44px;
+  border-radius: 70px 70px;
+  background-color: #7a66cc;
+}
+.footer-img .twitter {
+  width: 44px;
+  height: 44px;
+  border-radius: 70px 70px;
+  background-color: #7a66cc;
+}
+.footer-img .facebook {
+  width: 44px;
+  height: 44px;
+  border-radius: 70px 70px;
+  background-color: #7a66cc;
+}
+.footer-img .youtube {
+  width: 44px;
+  height: 44px;
+  border-radius: 70px 70px;
+  background-color: #7a66cc;
+}
+
+.footer-img img {
+  margin-right: 50px;
+}
